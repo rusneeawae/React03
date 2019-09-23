@@ -20,4 +20,4 @@ class Ch extends React.Component {
 }
 
 
-export default Check;
+export default Ch;
