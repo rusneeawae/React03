@@ -2,7 +2,7 @@ import React from 'react';
 import Event from './Event';
 import Ch from './Ch';
 import './App.css';
-import Start from './Start'
+import Start from './St'
 import _ from 'lodash';
 import profile from './pro.png'
 
@@ -108,7 +108,7 @@ class App extends React.Component {
                   <Ch check_count={this.state.counter} />
                 </div>
                 <div className="button-area">
-                  {ch}
+                  {check}
                   {ans}
                   {checks}
                 </div>
