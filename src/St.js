@@ -14,4 +14,4 @@ function St() {
     </div>
   );
 }
-export default Start;
+export default St;
