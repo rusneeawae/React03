@@ -105,10 +105,10 @@ class App extends React.Component {
                 
                 <div>
                   {/* <h1 className="text">{this.count_end}</h1> */}
-                  <Check check_count={this.state.counter} />
+                  <Ch check_count={this.state.counter} />
                 </div>
                 <div className="button-area">
-                  {check}
+                  {ch}
                   {ans}
                   {checks}
                 </div>
