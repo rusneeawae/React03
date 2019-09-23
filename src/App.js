@@ -54,7 +54,7 @@ class App extends React.Component {
     })
   }
   render() {
-    let check = this.state.completed === false ? '' : <button className="button" onClick={this.reset}><h1>Play Again</h1></button>;
+    let check = this.state.completed === false ? '' : <button className="button" onClick={this.reset}><h1>RESET</h1></button>;
     let ans = this.state.completed === false ? '' : <h3 className="ans">This word is {message}</h3>;
     let checks = this.state.completed === false ? '' : <h1 className="win">You Win</h1>;
     //let count_end = this.state.counter > 5 ? "Game Over" : "Counter : " + this.state.counter;
@@ -71,7 +71,7 @@ class App extends React.Component {
             <div className="center">
               <div className="center">
                 
-                <div className="text1"><h1 className="text">RUSNEE AWAE : 6035512050</h1></div>
+                <div className="text1"><h1 className="text">RUSNEE AWAE  6035512050</h1></div>
                 <div className="click">
                 </div>
               </div>
@@ -114,10 +114,6 @@ class App extends React.Component {
                 </div>
               </div>
             </div>
-
-            <div className="buttom-show">
-              <button className="button-show" onClick={this.give_ups}>Reset</button>
-          </div>
           </div>
         </div>
       </div>
