@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import App from './App'
-import Check from './Ch';
+import Ch from './Ch';
 class Event extends React.Component {
     state = {
         active: false

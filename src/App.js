@@ -1,6 +1,6 @@
 import React from 'react';
 import Event from './Event';
-import Check from './Ch';
+import Ch from './Ch';
 import './App.css';
 import Start from './Start'
 import _ from 'lodash';
