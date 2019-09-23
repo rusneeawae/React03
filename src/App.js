@@ -71,7 +71,7 @@ class App extends React.Component {
             <div className="center">
               <div className="center">
                 
-                <div className="text1"><h1 className="text">RUSNEE AWAE  6035512050</h1></div>
+                <div className="text1"><h1 className="text">RUSNEE AWAE 6035512050</h1></div>
                 <div className="click">
                 </div>
               </div>
